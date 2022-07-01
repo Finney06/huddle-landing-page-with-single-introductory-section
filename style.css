@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --violet:hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: var(--violet);
+    padding: 50px;
+    color: white;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+section {
+    display: flex;
+    /* margin-top: 60px; */
+    align-items:flex-start ;
+    margin: 60px auto 0;
+    max-width: 1440px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    /* width: 80%; */
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+
+button {
+    background-color: white;
+    padding: 12px 45px;
+    border-radius: 3rem;
+    cursor: pointer;
+    border: 0;
+    transition: all 0.3s ease-in-out;
+    color: var(--violet);
+    box-shadow: 0 10px 10px hsl(257deg 40% 39%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: var(--Soft-Magenta);
+    color: white;
+}
+
+.logo {
+    width: 17%;
+}
+
+.right {
+    width: 53%;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.mockup {
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+}
+
+@media screen and (max-width: 815px) {
+    
+}
+
+
+
+
+
+
